@@ -1,7 +1,7 @@
 package org.example;
 
+import org.example.calculator.Calculator;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -15,7 +15,7 @@ public class CalculatorTest {
 
     // 1 + 2 ----> Calculator
     // 3    <-----
-    @DisplayName("덧셈 연산을 수행한다.")
+    @DisplayName("연산을 수행한다.")
     @ParameterizedTest
     @MethodSource("formulaAndResult")
     void additionTest(int operand1, String operator, int operand2, int result) {
