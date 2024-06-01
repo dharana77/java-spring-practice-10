@@ -1,4 +1,4 @@
-package org.example;
+package org.example.password;
 
 /*
 요구사항
@@ -11,7 +11,6 @@ package org.example;
 경계조건에 대해 테스트 코드를 작성해야 한다.
  */
 
-import org.example.password.PasswordValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

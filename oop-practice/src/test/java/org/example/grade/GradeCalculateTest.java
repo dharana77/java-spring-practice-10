@@ -1,4 +1,4 @@
-package org.example;
+package org.example.grade;
 
 import org.example.grade.Course;
 import org.example.grade.GradeCalculator;
