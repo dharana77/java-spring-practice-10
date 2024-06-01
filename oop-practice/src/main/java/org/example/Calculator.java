@@ -2,16 +2,7 @@ package org.example;
 
 public class Calculator {
 
-    public static int calculate(int operant1, String operator, int operant2){
-        if (operator.equals("+")){
-            return operant1 + operant2;
-        }else if(operator.equals("-")){
-            return operant1 - operant2;
-        }else if(operator.equals("*")){
-            return operant1 * operant2;
-        }else if(operator.equals("/")){
-            return operant1 / operant2;
-        }
-        return 0;
+    public static int calculate(int operand1, String operator, int operand2){
+        return ArithmeticOperator.calculate(operand1, operator, operand2);
     }
 }
